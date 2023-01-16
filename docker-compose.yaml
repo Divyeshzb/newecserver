@@ -1,6 +1,7 @@
 version: "3.9"
 services:
   ecserver:
+    name: ecserver
     image: ecserver:latest
     ports: 
       - "30042:8081"
